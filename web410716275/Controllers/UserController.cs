@@ -26,6 +26,6 @@ namespace web410716275.Controllers
 
             return View(data);
         }
-
+        
     }
 }

@@ -23,7 +23,7 @@ namespace web410716275.ViewModels
         [Required(ErrorMessage = "請輸入密碼")]
         [StringLength(10, MinimumLength = 5, ErrorMessage = "請輸入5~10個字")]
         public String Password { get; set; }
-
+        
         public String Message { get; set; }
 
     }
